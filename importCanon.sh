@@ -2,6 +2,8 @@
 
 WORKING_PATH=/media/win4/Users/Sand/Pictures/ImportCanon
 
+mkdir -p $WORKING_PATH/tmp
+
 cd $WORKING_PATH/tmp
 gphoto2 --get-all-files
 
